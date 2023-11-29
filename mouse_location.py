@@ -25,5 +25,5 @@ def on_press(key):
 def main():
     with Listener(on_press=on_press) as listener:
         listener.join()
-  
+
 main()
